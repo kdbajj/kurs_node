@@ -12,7 +12,7 @@ http
       res.writeHead(200);
       res.end("Strona Blog");
     } else {
-      res.writeHead(404);
+      res.writeHead(40);
       res.end("Strony nie znaleziono");
     }
   })
